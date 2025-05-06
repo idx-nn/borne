@@ -1,0 +1,15 @@
+name: Borne
+author: iamj
+version: 5.2.0
+
+main: nn.iamj.borne.plugin.BornePlugin
+depend:
+  - ProtocolLib
+softdepend:
+  - LuckPerms
+  - DecentHolograms
+  - NBTAPI
+api-version: 1.16
+description: The advanced and cool plugin.
+
+prefix: Borne

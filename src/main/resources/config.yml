@@ -1,0 +1,51 @@
+#      ________
+#      ___  __ )________________________
+#      __  __  |  __ \_  ___/_  __ \  _ \
+#      _  /_/ // /_/ /  /   _  / / /  __/
+#      /_____/ \____//_/    /_/ /_/\___/
+#
+
+#
+#   DATABASE SETTINGS.
+#
+
+DATABASE:
+  CONNECTION:
+    HOST: "localhost"
+    PORT: "3306"
+    BASE: "prison"
+  USER:
+    NAME: "admin"
+    PASS: ""
+  PARAMS: "autoReconnect=true"
+
+#
+#   MINES SETTINGS.
+#
+
+MINES:
+  TICK-RATE: 120
+  ADDONS:
+    FORCE-TICK-WITH-REGENERATION: true
+  DEFAULT:
+    ALLOW-PVP: false
+    MIN-LEVEL: 1
+    MIN-RATIO: 35
+    COOLDOWN: 140
+
+#
+#   BOOSTERS SETTINGS.
+#
+
+THANKS-MODIFIER: 0.006
+
+#
+#    COMMERCE SETTINGS.
+#
+
+COMMERCE:
+  TICK-RATE: 1200
+  DEFAULT:
+    INFLATION: 0
+    DIFFERENCE: 12
+    RATIO: 50

@@ -1,0 +1,118 @@
+#      ________
+#      ___  __ )________________________
+#      __  __  |  __ \_  ___/_  __ \  _ \
+#      _  /_/ // /_/ /  /   _  / / /  __/
+#      /_____/ \____//_/    /_/ /_/\___/
+#
+
+#
+#   HUD SETTINGS.
+#
+
+HUD: "&f혠 &e[{LEVEL}]   &f혡 &e[{EXP}]           &f혣 &e[{DONATED}]   &f혤 &e[{MONEY}]"
+BOOSTER: "&eБустер [x{MODIFIER}] &7от игрока &e{PLAYER}&7 на &e{SECONDS_KEEP}"
+
+#
+#   BOSS SETTINGS.
+#
+
+BOSS:
+  HUD: "&e{BOSS_NAME} - &c{BOSS_HEALTH} health."
+
+#
+#   SKILLS SETTINGS.
+#
+
+SKILLS:
+  ATTACK:
+    MATERIAL: IRON_SWORD
+    NAME: "Урон"
+    RATIO: 1.75
+  DEFENCE:
+    MATERIAL: SCUTE
+    NAME: "Защита"
+    RATIO: 1.80
+  EXPLOSION_DEFENCE:
+    MATERIAL: GUNPOWDER
+    NAME: "Взрывоустойчивость"
+    RATIO: 1.35
+  TEMPERATURE_DEFENCE:
+    MATERIAL: SLIME_BALL
+    NAME: "Термоустойчивость"
+    RATIO: 1.10
+  POISON_DEFENCE:
+    MATERIAL: POISONOUS_POTATO
+    NAME: "Устойчивость к ядам"
+    RATIO: 0.95
+
+#
+#   TALENTS SETTINGS.
+#
+
+TALENTS:
+  REGEN:
+    MATERIAL: RED_BED
+    NAME: 'Ускоренная регенерация'
+    DESCRIPTION:
+      - "Позволяет c определенным шансом при ударе"
+      - "поджечь врага на определенное время."
+    RATIO: 1.20
+  FIRE:
+    MATERIAL: BLAZE_POWDER
+    NAME: 'Поджарка'
+    DESCRIPTION:
+      - "Позволяет c определенным шансом при ударе"
+      - "поджечь врага на определенное время."
+    RATIO: 1.35
+  POISON:
+    MATERIAL: POISONOUS_POTATO
+    NAME: 'Ядовитые руки'
+    DESCRIPTION:
+      - "Позволяет c определенным шансом при ударе"
+      - "отравить врага на определенное время."
+    RATIO: 1.10
+  SHINOBI:
+    MATERIAL: ANDESITE
+    NAME: 'Головокружение'
+    DESCRIPTION:
+      - "Позволяет c определенным шансом при ударе"
+      - "дезориентировать врага и замедлить его."
+    RATIO: 1.15
+  VAMPIRE:
+    MATERIAL: REDSTONE
+    NAME: 'Вампир'
+    DESCRIPTION:
+      - "Позволяет c определенным шансом при ударе"
+      - "забрать у врага жизненные силы."
+    RATIO: 1.45
+
+#
+#   MINES SETTINGS.
+#
+
+MINES:
+  PROGRESS_BAR:
+    BUILDER:
+      START: ""
+      END: ""
+    CHARS:
+      FILL: "&e-"
+      EMPTY: "&7-"
+    PARTS: 20
+  DISPLAY:
+    HOLOGRAM:
+      - "Шахта: &e{MINE_LABEL}"
+      - "Состояние: &e{MINE_RATIO}%"
+      - "PvP: &e{MINE_ALLOW_PVP}"
+      - "Минимальный уровень: &e{MINE_MIN_LEVEL}"
+      - "{MINE_PROGRESS_BAR}"
+    MENU:
+      - "Шахта: &e{MINE_LABEL}"
+      - "Состояние: &e{MINE_RATIO}%"
+      - "PvP: &e{MINE_ALLOW_PVP}"
+      - "Минимальный уровень: &e{MINE_MIN_LEVEL}"
+      - "{MINE_PROGRESS_BAR}"
+  PLACEHOLDER:
+    ALLOW_PVP:
+      TRUE: "&x&1&1&f&f&1&1Включено"
+      FALSE: "&x&f&f&1&1&1&1Выключено"
